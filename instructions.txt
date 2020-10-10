@@ -1,5 +1,8 @@
 Using Laravel 8.x
 
 Factories have changed - now classes
-in php artisan tinker run `User::factory()->make();`
+in php artisan tinker run `User::factory()->create();`
 Also call faker correctly e.g $this->faker->company in the definition()
+
+To manually add your own values to the Factory just add it in the array - User::factory()->count(1)->make(['tenant_id' => 2]);
+In this instance we create ONE user (count) and make it but set the tenant_id value to 2
