@@ -1,0 +1,5 @@
+Using Laravel 8.x
+
+Factories have changed - now classes
+in php artisan tinker run `User::factory()->make();`
+Also call faker correctly e.g $this->faker->company in the definition()
