@@ -76,4 +76,23 @@ class TenantScopeTest extends TestCase
         $this->assertTrue($createdUser->tenant_id == $user1->tenant_id);
     }
 
+    /** @test */
+    public function a_user_can_only_create_users_in_his_tenant_even_if_other_tenant_is_provided()
+    {
+        $tenant1 = Tenant::factory()->create();
+        $tenant2 = Tenant::factory()->create();
+
+        $user1 = User::factory()->create([
+            'tenant_id' => $tenant1
+        ]);
+
+        auth()->login($user1);
+
+        $createdUser = User::factory()->make();
+        $createdUser->tenant_id = $tenant2->id;
+        $createdUser->save();
+
+        $this->assertTrue($createdUser->tenant_id == $user1->tenant_id);
+    }
+
 }
