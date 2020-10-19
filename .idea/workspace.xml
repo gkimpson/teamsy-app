@@ -22,7 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204e9ecd-7d37-463f-88e1-5bb638a41bdb" name="Default Changelist" comment="" />
+    <list default="true" id="204e9ecd-7d37-463f-88e1-5bb638a41bdb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +36,14 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
@@ -160,9 +168,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -180,7 +190,13 @@
       <option name="presentableId" value="Default" />
       <updated>1602344092958</updated>
       <workItem from="1602344093971" duration="1039000" />
-      <workItem from="1602345143215" duration="7946000" />
+      <workItem from="1602345143215" duration="8421000" />
+      <workItem from="1602401536009" duration="82000" />
+      <workItem from="1603104374494" duration="2997000" />
+      <workItem from="1603107742143" duration="112000" />
+      <workItem from="1603107869023" duration="36000" />
+      <workItem from="1603107933852" duration="189000" />
+      <workItem from="1603108136338" duration="2451000" />
     </task>
     <servers />
   </component>
@@ -197,19 +213,48 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1520" y="397" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603110492455">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1520" y="397" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1603110492455" />
+    <state x="1658" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603104923923">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1658" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1603104923923" />
+    <state x="1658" y="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603110080872">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1658" y="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1603110080872" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1603110476372">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.23.2560.1417@0.23.2560.1417" timestamp="1603110476372" />
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1603110510989">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.23.2560.1417@0.23.2560.1417" timestamp="1603110510989" />
     <state x="1695" y="464" key="NewPhpClassDialog" timestamp="1602358114324">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1695" y="464" key="NewPhpClassDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1602358114324" />
+    <state x="1419" y="368" width="1070" height="722" key="SettingsEditor" timestamp="1603108252911">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1419" y="368" width="1070" height="722" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1603108252911" />
+    <state x="1621" y="486" width="619" height="490" key="find.popup" timestamp="1603111024937">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1621" y="486" width="619" height="490" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603111024937" />
     <state x="1585" y="346" key="run.anything.popup" timestamp="1602357348257">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1585" y="346" key="run.anything.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1602357348257" />
-    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1602358499700">
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1603111436332">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1602358499700" />
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603111436332" />
   </component>
 </project>
