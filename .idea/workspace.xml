@@ -22,13 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204e9ecd-7d37-463f-88e1-5bb638a41bdb" name="Default Changelist" comment="creating tests with users and tenants">
-      <change afterPath="$PROJECT_DIR$/app/Traits/BelongsToTenant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stubs/model.stub" beforeDir="false" afterPath="$PROJECT_DIR$/stubs/model.stub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/TenantScopeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/TenantScopeTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="204e9ecd-7d37-463f-88e1-5bb638a41bdb" name="Default Changelist" comment="creating tests with users and tenants" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +219,7 @@
       <workItem from="1603107742143" duration="112000" />
       <workItem from="1603107869023" duration="36000" />
       <workItem from="1603107933852" duration="189000" />
-      <workItem from="1603108136338" duration="9266000" />
+      <workItem from="1603108136338" duration="9751000" />
     </task>
     <task id="LOCAL-00001" summary="creating tests with users and tenants">
       <created>1603118254296</created>
@@ -275,22 +269,22 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.23.2560.1417@0.23.2560.1417" timestamp="1603110476372" />
-    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1603118802167">
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom" timestamp="1603118883153">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1603118802167" />
-    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1603118802166">
+    <state width="1238" height="409" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1603118883153" />
+    <state width="1238" height="409" key="GridCell.Tab.0.center" timestamp="1603118883152">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1603118802166" />
-    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1603118802166">
+    <state width="1238" height="409" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1603118883152" />
+    <state width="1238" height="409" key="GridCell.Tab.0.left" timestamp="1603118883152">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1603118802166" />
-    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1603118802167">
+    <state width="1238" height="409" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1603118883152" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right" timestamp="1603118883153">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1603118802167" />
+    <state width="1238" height="409" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1603118883153" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1603110510989">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
