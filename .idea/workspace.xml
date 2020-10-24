@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204e9ecd-7d37-463f-88e1-5bb638a41bdb" name="Default Changelist" comment="creating tests with users and tenants" />
+    <list default="true" id="204e9ecd-7d37-463f-88e1-5bb638a41bdb" name="Default Changelist" comment="creating tests with users and tenants">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instructions.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +222,13 @@
       <workItem from="1603107742143" duration="112000" />
       <workItem from="1603107869023" duration="36000" />
       <workItem from="1603107933852" duration="189000" />
-      <workItem from="1603108136338" duration="9751000" />
+      <workItem from="1603108136338" duration="11618000" />
+      <workItem from="1603134630766" duration="42000" />
+      <workItem from="1603227603482" duration="57000" />
+      <workItem from="1603227699550" duration="2474000" />
+      <workItem from="1603261620029" duration="425000" />
+      <workItem from="1603316415022" duration="220000" />
+      <workItem from="1603556420651" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="creating tests with users and tenants">
       <created>1603118254296</created>
@@ -313,9 +322,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1585" y="346" key="run.anything.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1602357348257" />
-    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1603118783672">
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1603556436034">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603118783672" />
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603556436034" />
   </component>
 </project>
