@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="204e9ecd-7d37-463f-88e1-5bb638a41bdb" name="Default Changelist" comment="creating tests with users and tenants">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github" beforeDir="false" afterPath="$PROJECT_DIR$/_github" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
