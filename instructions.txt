@@ -11,3 +11,6 @@ global scopes - auto append the where tenant_id to each call to prevent data lea
  add tenant_id to session with event listeners using make:listener command on the login event - once logged in auto append scope to all calls put this into tenant_id in the session first
 
 Livewire component
+
+Have to _github (otherwise impossible to use the premium tailwind css) - go back to ep 5 and revisit
+https://github.com/iAmKevinMcKee/teamsy/tree/lesson-5

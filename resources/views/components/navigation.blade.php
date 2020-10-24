@@ -32,10 +32,29 @@
                 <a href="#"
                    class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Company
                 </a>
-                <a href="/login"
-                   class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Log
-                    in
-                </a>
+                @auth
+                    <a
+                        href="{{ route('logout') }}"
+                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+                        class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out"
+                    >
+                        Log out
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                @else
+                    <a href="/login"
+                       class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 transition duration-150 ease-in-out">Log
+                        in
+                    </a>
+                    @if (Route::has('register'))
+                        <a href="{{ route('register') }}" class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150">Register</a>
+                    @endif
+                @endauth
+
+
             </div>
         </nav>
     </div>
