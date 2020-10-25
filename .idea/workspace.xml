@@ -23,12 +23,201 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="204e9ecd-7d37-463f-88e1-5bb638a41bdb" name="Default Changelist" comment="creating tests with users and tenants">
+      <change afterPath="$PROJECT_DIR$/resources/views/components/text-input.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_github" beforeDir="false" afterPath="$PROJECT_DIR$/_github" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Charts/LoginChart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Department.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Document.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Controllers/Auth/EmailVerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Controllers/Auth/LogoutController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Controllers/Auth/PasswordResetController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Controllers/DocumentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Controllers/ImpersonationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/AddUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/Auth/Login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/Auth/Passwords/Confirm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/Auth/Passwords/Email.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/Auth/Passwords/Reset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/Auth/Register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/Auth/Verify.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/DepartmentForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Livewire/ShowUsers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Listeners/ClearTenantIdFromSession.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Listeners/RecordLogin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Listeners/SetTenantIdInSession.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Phone.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Scopes/TenantScope.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Tenant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/Traits/BelongsToTenant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/livewire.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/factories/LoginFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/factories/PhoneFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/factories/TenantFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/migrations/2020_06_03_032546_create_tenants_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/migrations/2020_06_12_021646_create_departments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/migrations/2020_06_12_024233_create_phones_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/migrations/2020_07_30_045803_create_documents_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/migrations/2020_08_02_155726_create_logins_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/database/seeds/DemoSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/img/logos/teamsy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/img/logos/teamsy_on_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/img/logos/workflow-logo-on-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/img/logos/workflow-mark-on-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/components/desktop-nav-link.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/components/document-icon.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/components/loading.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/components/login-chart.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/components/logo.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/components/navigation.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/components/text-input.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/components/th.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/dashboard.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/layouts/auth.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/layouts/base.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/add-user.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/auth/passwords/confirm.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/department-form.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/livewire/show-users.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/super/dashboard.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/team.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/users/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/vendor/livewire/pagination-links.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/vendor/pagination/default.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/vendor/pagination/simple-default.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/debugbar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/console.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/controller.api.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/controller.invokable.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/controller.model.api.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/controller.model.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/controller.nested.api.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/controller.nested.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/controller.plain.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/controller.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/factory.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/job.queued.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/job.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/middleware.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/migration.create.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/migration.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/migration.update.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/model.pivot.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/model.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/policy.plain.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/policy.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/request.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/rule.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/seeder.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/test.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/stubs/test.unit.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/Auth/LoginTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/Auth/LogoutTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/Auth/Passwords/ConfirmTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/Auth/Passwords/EmailTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/Auth/Passwords/ResetTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/Auth/RegisterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/Auth/VerifyTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Feature/TenantScopeTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_github/webpack.mix.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Auth/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Auth/Register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Tenant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tenant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/auth/register.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +353,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1igzbEl0oZvYXF6eKl4FGzr5qXX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -233,6 +423,7 @@
       <workItem from="1603261620029" duration="425000" />
       <workItem from="1603316415022" duration="220000" />
       <workItem from="1603556420651" duration="50000" />
+      <workItem from="1603610824201" duration="3849000" />
     </task>
     <task id="LOCAL-00001" summary="creating tests with users and tenants">
       <created>1603118254296</created>
@@ -306,10 +497,18 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1695" y="464" key="NewPhpClassDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1603118552853" />
+    <state x="1739" y="662" key="NewPhpFileDialog" timestamp="1603613892767">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1739" y="662" key="NewPhpFileDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1603613892767" />
     <state x="1419" y="368" width="1070" height="722" key="SettingsEditor" timestamp="1603108252911">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1419" y="368" width="1070" height="722" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1603108252911" />
+    <state width="604" height="445" key="SwitcherDM" timestamp="1603570819205">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="604" height="445" key="SwitcherDM/0.23.2560.1417@0.23.2560.1417" timestamp="1603570819205" />
     <state x="1520" y="471" key="Vcs.Push.Dialog.v2" timestamp="1603118266896">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -318,17 +517,21 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1543" y="349" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1603115960821" />
-    <state x="1621" y="486" width="619" height="548" key="find.popup" timestamp="1603114540712">
+    <state x="1718" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603614741724">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1621" y="486" width="619" height="548" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603114540712" />
+    <state x="1718" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417@0.23.2560.1417" timestamp="1603614741724" />
+    <state x="1621" y="486" width="738" height="548" key="find.popup" timestamp="1603570295678">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1621" y="486" width="738" height="548" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603570295678" />
     <state x="1585" y="346" key="run.anything.popup" timestamp="1602357348257">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1585" y="346" key="run.anything.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1602357348257" />
-    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1603569099033">
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1603613412166">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603569099033" />
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1603613412166" />
   </component>
 </project>

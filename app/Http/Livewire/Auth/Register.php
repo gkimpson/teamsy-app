@@ -26,7 +26,7 @@ class Register extends Component
     public function register()
     {
         $this->validate([
-            'name' => ['required', 'string'],
+            'name' => ['required', 'string', 'min:20'],
             'companyName' => ['required', 'string', 'unique:tenants,name'],
             'email' => ['required', 'email', 'unique:users'],
             'password' => ['required', 'min:8'],
@@ -49,6 +49,11 @@ class Register extends Component
         Auth::login($user, true);
 
         redirect(route('home'));
+    }
+
+    public function updated($value)
+    {
+        $this->resetErrorBag($value);
     }
 
     public function render()
